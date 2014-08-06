@@ -3,7 +3,7 @@ Ember.Widgets.AccordionComponent = Ember.Component.extend
   activeIndex: 0
 
 Ember.Widgets.AccordionItem = Ember.View.extend
-  defaultTemplate: Ember.Handlebars.compile('{{view.content}}')
+  # defaultTemplate: Ember.Handlebars.compile('{{view.content}}')
   layoutName: 'accordion_group_layout'
   classNames: 'panel panel-default'
   title: 'Untitled Accordion Group'
